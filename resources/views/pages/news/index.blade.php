@@ -6,12 +6,6 @@
     </section>
 
     <section class="container mx-auto px-4 pt-8 md:pt-12">
-        @if (session('success'))
-            <div class="bg-green-100 border border-green-400 text-green-700 p-4 rounded relative mb-4" role="alert">
-                <span class="block sm:inline">{{ session('success') }}</span>
-            </div>
-        @endif
-
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             @forelse ($news as $item)
                 <a href="{{ route('news.show', $item->id) }}"
@@ -33,12 +27,5 @@
                 <p class="col-span-full text-center text-gray-600 text-lg">Belum ada berita yang tersedia.</p>
             @endforelse
         </div>
-        <div class="fixed bottom-4 right-4">
-            <a href="{{ route('news.create') }}" class="bg-[#4E3D33] text-white px-4 py-2 rounded-full hover:bg-white hover:text-[#4E3D33] border-2 border-[#4E3D33] transition duration-300 flex items-center">
-                <i class="fas fa-plus mr-2"></i>
-                Tambah Berita
-            </a>
-        </div>
     </section>
 @endsection
-

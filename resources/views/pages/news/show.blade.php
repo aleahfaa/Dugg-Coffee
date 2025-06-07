@@ -23,32 +23,19 @@
                 @endif
 
                 <div class="prose max-w-none text-[#4E3D33] leading-relaxed text-lg">
-                    {!! Str::limit($news->content, 350, '...') !!}
-                </div>
-                <div class="mt-8 flex space-x-2">
-                    <a href="{{ route('news.edit', $news->id) }}"
-                       class="bg-[#4E3D33] hover:bg-[#653318] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                        Edit
-                    </a>
-                    <form action="{{ route('news.destroy', $news->id) }}" method="post" class="inline"
-                          onsubmit="return confirm('Anda yakin ingin menghapus berita ini?')">
-                        @csrf
-                        @method('delete')
-                        <button type="submit"
-                            class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                            Hapus
-                        </button>
-                    </form>
+                    {!! nl2br(e($news->content)) !!}
                 </div>
             </div>
 
             <div class="w-2/6 min-h-[20rem] bg-[#FCECB9] m-8 p-6 h-fit space-y-3">
                 <h3 class="text-xl font-bold text-[#653318]">News</h3>
-                    <p class="font-bold break-words">
-                        {{ $news->title}}
-                    </p>
+                <p class="font-bold break-words">
+                    {{ $news->title}}
+                </p>
+                <div class="mt-4 text-sm text-gray-600">
+                    <p><strong>Dipublikasikan:</strong> {{ $news->created_at->format('d M Y') }}</p>
+                </div>
             </div>
         </div>
     </div>
 @endsection
-
