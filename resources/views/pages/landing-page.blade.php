@@ -350,6 +350,43 @@
         </div>
     </section>
 
+    <!-- Promo Section -->
+    <section style="background-color: #D8CFC4;" class="py-12">
+        <div class="max-w-7xl mx-auto px-4 md:px-10 space-y-12">
+            <h2 class="text-2xl text-center md:text-4xl font-bold mb-4">
+                Promo Spesial untuk Kamu!
+            </h2>
+            @php
+                $promos = [
+                    [
+                        'img' => 'img/promos/promo-coffetime.png',
+                        'route' => 'promo.coffeetime'
+                    ],
+                    [
+                        'img' => 'img/promos/promo-student.png',
+                        'route' => 'promo.student'
+                    ],
+                    [
+                        'img' => 'img/promos/promo-specialmenu.png',
+                        'route' => 'promo.specialmenu'
+                    ],
+                ];
+            @endphp
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                @foreach ($promos as $promo)
+                    <div>
+                        <a href="{{ route($promo['route']) }}"
+                            class="block relative bg-white rounded-2xl overflow-hidden shadow-xl group cursor-pointer transition-all duration-300 hover:shadow-2xl">
+                            <div class="relative aspect-square">
+                                <img src="{{ asset($promo['img']) }}" alt="Promo" class="w-full h-full object-cover">
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
     <!-- Instagram gallery -->
     <section id="instagram" class="text-center py-12 px-4 sm:px-6">
         <h2 class="text-xl text-[#B5906A] font-bold mb-3">Ikuti Keseruan Kami!</h2>

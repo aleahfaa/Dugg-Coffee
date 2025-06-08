@@ -16,7 +16,7 @@
             <p>Jalan gegerkalong girang no 66, Bandung Satu, Jawa Barat, Indonesia 40153</p>
             <div class="mt-3">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509546!2d107.6100803153188!3d-6.895655295008147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c4a5b6f5a1%3A0x4e5f1e4c4b6e3d3!2sDugg%20Coffee!5e0!3m2!1sen!2sid!4v1631761651745!5m2!1sen!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.230637930008!2d107.58553227505494!3d-6.86293999313559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e74564f9cd7d%3A0xa6e7ef35f31695bb!2sDugg%20Coffee!5e0!3m2!1sen!2sid!4v1749400265481!5m2!1sen!2sid"
                     width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>

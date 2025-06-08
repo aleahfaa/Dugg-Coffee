@@ -2,7 +2,12 @@
 @section('content')
     <section class="relative h-[210px]">
         <img src="{{ asset('img/news-hero.png') }}" alt="hero-image" class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+            <h1 class="text-[#FCECB9] text-4xl md:text-5xl lg:text-6xl font-bold text-center drop-shadow-lg">
+                DuggNews
+            </h1>
+        </div>
     </section>
 
     <section class="container mx-auto px-4 pt-8 md:pt-12">

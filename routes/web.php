@@ -6,6 +6,7 @@ use App\Http\Controllers\SpaceController;
 use App\Http\Controllers\Admin\AdminAuthController;
 use App\Http\Controllers\Admin\AdminNewsController;
 use App\Http\Middleware\AdminAuth;
+use App\Http\Controllers\PromoController;
 
 // Public routes (READ-ONLY for users)
 Route::get('/', [NewsController::class, 'getLastNews']);
@@ -39,3 +40,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::resource('news', AdminNewsController::class);
     });
 });
+
+Route::get('/promo/coffeetime', [PromoController::class, 'coffeetime'])->name('promo.coffeetime');
+Route::get('/promo/student', [PromoController::class, 'student'])->name('promo.student');
+Route::get('/promo/specialmenu', [PromoController::class, 'specialmenu'])->name('promo.specialmenu');
