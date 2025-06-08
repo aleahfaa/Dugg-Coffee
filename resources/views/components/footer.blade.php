@@ -7,9 +7,9 @@
             <p>Saturday: 08.00 – 23.00</p>
             <p>Sunday & Holiday: 08.00 – 21.00</p>
             <h4 class="font-semibold mt-4 mb-2">Contacts:</h4>
-            <span>085700649117</span>
-            <span>@duggcoffee.66</span>
-            </i><span>duggless.66@gmail.com</span>
+            <a href="https://wa.me/6285700649117" target="_blank">085700649117</a>
+            <a href="https://instagram.com/duggcoffee.66" target="_blank">@duggcoffee.66</a>
+            <a href="mailto:duggless.66@gmail.com">duggless.66@gmail.com</a>
         </div>
         <div>
             <h4 class="font-semibold mb-2">Address:</h4>

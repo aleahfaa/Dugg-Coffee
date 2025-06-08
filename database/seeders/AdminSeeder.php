@@ -13,17 +13,25 @@ class AdminSeeder extends Seeder
      */
     public function run(): void
     {
-        Admin::create([
-            'name' => 'Super Admin',
-            'email' => 'admin@duggcoffee.com',
-            'password' => Hash::make('admin123'), // Change this password in production
-        ]);
-
-        // You can add more admins here if needed
-        Admin::create([
-            'name' => 'News Manager',
-            'email' => 'newsmanager@duggcoffee.com',
-            'password' => Hash::make('manager123'),
-        ]);
+        if (!Admin::where('email', 'admin@duggcoffee.com')->exists()) {
+            Admin::create([
+                'name' => 'Super Admin',
+                'email' => 'admin@duggcoffee.com',
+                'password' => Hash::make('admin123'),
+            ]);
+            $this->command->info('Super Admin created successfully.');
+        } else {
+            $this->command->info('Super Admin already exists, skipping...');
+        }
+        if (!Admin::where('email', 'newsmanager@duggcoffee.com')->exists()) {
+            Admin::create([
+                'name' => 'News Manager',
+                'email' => 'newsmanager@duggcoffee.com',
+                'password' => Hash::make('manager123'),
+            ]);
+            $this->command->info('News Manager created successfully.');
+        } else {
+            $this->command->info('News Manager already exists, skipping...');
+        }
     }
 }
