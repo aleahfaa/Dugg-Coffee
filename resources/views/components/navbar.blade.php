@@ -22,7 +22,7 @@
             <li><a class="hover:text-amber-900 hover:underline transition-colors duration-200"
                     href="{{ asset('/#faq') }}">FAQ</a></li>
         </ul>
-        <a href="{{ asset('/cart') }}"
+        <a href="https://gofood.link/a/F4SXGWL" target="_blank"
             class="cursor-pointer bg-transparent border-2 border-amber-900 py-2 px-6 rounded text-amber-900 font-bold hover:bg-amber-900 hover:text-white transition-colors duration-300">
             Order
         </a>

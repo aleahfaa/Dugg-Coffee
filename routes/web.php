@@ -25,6 +25,10 @@ Route::get('/space/funroom', [SpaceController::class, 'funroom'])->name('space.f
 Route::get('/space/garden', [SpaceController::class, 'garden'])->name('space.garden');
 Route::get('/space/meeting', [SpaceController::class, 'meeting'])->name('space.meeting');
 
+Route::get('/promo/coffeetime', [PromoController::class, 'coffeetime'])->name('promo.coffeetime');
+Route::get('/promo/student', [PromoController::class, 'student'])->name('promo.student');
+Route::get('/promo/specialmenu', [PromoController::class, 'specialmenu'])->name('promo.specialmenu');
+
 // Admin routes
 Route::prefix('admin')->name('admin.')->group(function () {
     // Guest admin routes (not authenticated)
@@ -40,7 +44,3 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::resource('news', AdminNewsController::class);
     });
 });
-
-Route::get('/promo/coffeetime', [PromoController::class, 'coffeetime'])->name('promo.coffeetime');
-Route::get('/promo/student', [PromoController::class, 'student'])->name('promo.student');
-Route::get('/promo/specialmenu', [PromoController::class, 'specialmenu'])->name('promo.specialmenu');

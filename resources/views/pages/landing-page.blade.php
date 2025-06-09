@@ -16,7 +16,7 @@
                         unwind,
                         create, and connect with nature.
                     </p>
-                    <a href="{{ asset('/cart') }}"
+                    <a href="https://gofood.link/a/F4SXGWL" target="_blank"
                         class="bg-[#4E3D33] font-light text-white px-6 py-2 rounded-md text-sm hover:bg-white hover:text-amber-900 transition duration-300 w-fit">
                         Order Now
                     </a>
@@ -71,42 +71,42 @@
                         'beverages' => [
                             [
                                 'name' => 'Espresso',
-                                'price' => 'Rp 15.000',
+                                'price' => 'Rp 28.000',
                                 'desc' =>
-                                    'Espresso yang ditambahkan air panas, memberikan rasa kopi yang lebih ringan namun tetap bold.',
+                                    'Kopi hitam pekat dengan rasa kuat, disajikan dalam takaran kecil untuk suntikan semangat.',
                                 'img' => 'img/item-menus/espresso.png',
                             ],
                             [
                                 'name' => 'Americano',
-                                'price' => 'Rp 18.000',
+                                'price' => 'Rp 23.000',
                                 'desc' =>
-                                    'Kopi hitam dengan rasa lebih tajam dari Americano, cocok bagi pencinta kopi tanpa ampas.',
+                                    'Espresso yang ditambahkan air panas, memberikan rasa kopi yang lebih ringan namun tetap bold.',
                                 'img' => 'img/item-menus/americano.png',
                             ],
                             [
                                 'name' => 'Long Black',
-                                'price' => 'Rp 20.000',
+                                'price' => 'Rp 23.000',
                                 'desc' =>
                                     'Kopi hitam dengan rasa lebih tajam dari Americano, cocok bagi pencinta kopi tanpa ampas.',
                                 'img' => 'img/item-menus/long-black.png',
                             ],
                             [
                                 'name' => 'Manual Brew',
-                                'price' => 'Rp 22.000',
+                                'price' => 'Rp 25.000',
                                 'desc' =>
                                     'Kopi diseduh manual seperti V60 atau French Press, menonjolkan cita rasa asli biji kopi.',
                                 'img' => 'img/item-menus/manual-brew.png',
                             ],
                             [
                                 'name' => 'Latte',
-                                'price' => 'Rp 20.000',
+                                'price' => 'Rp 25.000',
                                 'desc' =>
                                     'Kopi espresso dengan campuran susu steamed, lembut dan creamy di setiap tegukan.',
                                 'img' => 'img/item-menus/latte.png',
                             ],
                             [
                                 'name' => 'Vanilla Latte',
-                                'price' => 'Rp 22.000',
+                                'price' => 'Rp 25.000',
                                 'desc' =>
                                     'Latte klasik yang diberi sentuhan vanilla, menambah rasa manis dan harum yang menenangkan.',
                                 'img' => 'img/item-menus/vanilla-latte.png',
@@ -115,121 +115,121 @@
                         'seasonal' => [
                             [
                                 'name' => 'Mont Blanc',
-                                'price' => 'Rp 30.000',
-                                'desc' => 'Menu spesial musiman dengan krim kastanye dan topping whipped.',
+                                'price' => 'Rp 23.000',
+                                'desc' => 'Minuman spesial dengan rasa manis kastanye dan tekstur creamy yang lembut di mulut.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/531b2584-03ef-4367-0945-d77afed9a6f2.jpg',
+                                    'img/item-menus/mont-blanc.png',
                             ],
                             [
                                 'name' => 'Matcha Strawberry',
-                                'price' => 'Rp 28.000',
-                                'desc' => 'Minuman matcha musiman dengan rasa stroberi segar.',
+                                'price' => 'Rp 25.000',
+                                'desc' => 'Perpaduan unik antara pahitnya matcha dan manis-asam stroberi yang menyegarkan.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/4f398134-8c5e-4f85-d591-250e51d5d9eb.jpg',
+                                    'img/item-menus/matcha-strawberry.png',
                             ],
                         ],
                         'signature' => [
                             [
                                 'name' => 'Chocolate',
-                                'price' => 'Rp 25.000',
-                                'desc' => 'Minuman cokelat kaya dengan tekstur krim.',
+                                'price' => 'Rp 23.000',
+                                'desc' => 'Minuman cokelat klasik yang creamy dan manis, cocok untuk pencinta rasa hangat.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/21f435e9-ba5a-4a66-2bcc-1e45d73cdc19.jpg',
+                                    'img/item-menus/chocolate.png',
                             ],
                             [
                                 'name' => 'Choco Strawberry',
-                                'price' => 'Rp 27.000',
-                                'desc' => 'Minuman cokelat dengan rasa stroberi segar.',
+                                'price' => 'Rp 25.000',
+                                'desc' => 'Cokelat lembut dengan campuran stroberi segar yang manis dan sedikit asam.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/51877faa-aad4-440e-0b48-349f151372dd.jpg',
+                                    'img/item-menus/choco-strawberry.png',
                             ],
                             [
                                 'name' => 'Matcha',
-                                'price' => 'Rp 28.000',
-                                'desc' => 'Minuman matcha signature dengan susu krim.',
+                                'price' => 'Rp 23.000',
+                                'desc' => 'Minuman berbahan matcha Jepang dengan rasa earthy dan aroma yang menenangkan.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/199488ed-37ba-43a4-2a0b-1ec739705051.jpg',
+                                    'img/item-menus/matcha.png',
                             ],
                             [
                                 'name' => 'Charcoal',
-                                'price' => 'Rp 26.000',
-                                'desc' => 'Minuman charcoal yang unik dengan rasa asap.',
+                                'price' => 'Rp 23.000',
+                                'desc' => 'Minuman unik berbahan charcoal aktif dengan rasa ringan dan tampilan yang mencolok.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/80c843f2-cb43-4ad9-aecd-8e77188c66b5.jpg',
+                                    'img/item-menus/charcoal.png',
                             ],
                             [
                                 'name' => 'Aren Milk',
-                                'price' => 'Rp 24.000',
-                                'desc' => 'Minuman susu aren palm yang manis.',
+                                'price' => 'Rp 23.000',
+                                'desc' => 'Susu segar dengan manis alami dari gula aren – simple, sehat, dan nikmat.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/788538d3-989f-4d1a-a161-ce5b1503c53e.jpg',
+                                    'img/item-menus/aren-milk.png',
                             ],
                         ],
                         'shareable' => [
                             [
                                 'name' => 'French Fries',
-                                'price' => 'Rp 15.000',
-                                'desc' => 'French fries yang crispy dan keemasan.',
+                                'price' => 'Rp 20.000',
+                                'desc' => 'Kentang goreng renyah berbalut garam ringan, pas untuk teman ngobrol atau nonton.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/ad487637-a402-4e03-6006-fafcdee755ab.jpg',
+                                    'img/item-menus/french-fries.png',
                             ],
                             [
-                                'name' => 'Fries n Sausage',
-                                'price' => 'Rp 20.000',
-                                'desc' => 'French fries disajikan dengan sosis.',
+                                'name' => 'Fries & Sausage',
+                                'price' => 'Rp 25.000',
+                                'desc' => 'Kentang goreng dan potongan sosis gurih, cocok dijadikan camilan berbagi.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/de1c2ad2-c10a-43da-8195-e9e03f27a8de.jpg',
+                                    'img/item-menus/fries-sausage.png',
                             ],
                             [
                                 'name' => 'Cireng',
                                 'price' => 'Rp 18.000',
-                                'desc' => 'Snack cireng yang crispy dan lezat.',
+                                'desc' => 'Camilan khas Sunda berbahan aci, crispy di luar, kenyal di dalam, dengan cita rasa lokal.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/fa46e6d4-ec88-4500-5866-88b92444f720.jpg',
+                                    'img/item-menus/cireng.png',
                             ],
                             [
                                 'name' => 'Tahu Lada Goreng',
-                                'price' => 'Rp 17.000',
-                                'desc' => 'Tahu goreng yang crispy dengan saus lada pedas.',
+                                'price' => 'Rp 15.000',
+                                'desc' => 'Potongan tahu goreng gurih dengan taburan lada dan garam, pedas ringan dan nagih.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/42596c75-ce8a-405e-1ccb-b734e01a13a1.jpg',
+                                    'img/item-menus/tahu-lada-goreng.png',
                             ],
                         ],
                         'maincourse' => [
                             [
                                 'name' => 'Beef Slice Rice Bowl',
-                                'price' => 'Rp 40.000',
-                                'desc' => 'Makanan rice bowl dengan irisan daging sapi dan sayuran.',
+                                'price' => 'Rp 28.000',
+                                'desc' => 'Nasi hangat dengan irisan daging sapi tumis gurih dan bumbu khas, mengenyangkan dan lezat.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/d0014ce0-c4a3-4e68-3684-264fbd61a3da.jpg',
+                                    'img/item-menus/beef-slice-rice-bowl.png',
                             ],
                             [
                                 'name' => 'Chicken Pop Rice Bowl',
-                                'price' => 'Rp 38.000',
-                                'desc' => 'Makanan rice bowl dengan chicken pop crispy dan sayuran.',
+                                'price' => 'Rp 25.000',
+                                'desc' => 'Ayam crispy potong kecil disajikan di atas nasi dengan saus spesial yang gurih-manis.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/c56c29b8-5328-45ef-972e-103686580ecf.jpg',
+                                    'img/item-menus/chicken-pop-rice-bowl.png',
                             ],
                             [
                                 'name' => 'Indomie Goreng/Kuah + Telur',
-                                'price' => 'Rp 25.000',
-                                'desc' => 'Indomie goreng atau kuah disajikan dengan telur.',
+                                'price' => 'Rp 10.000',
+                                'desc' => 'Indomie favorit dengan pilihan kuah atau goreng, dilengkapi telur untuk rasa lebih lengkap.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/ab386119-3cb6-4345-a66f-e57a25cfd3b5.jpg',
+                                    'img/item-menus/indomie-telur.png',
                             ],
                             [
                                 'name' => 'Indomie Goreng Saus Keju',
-                                'price' => 'Rp 27.000',
-                                'desc' => 'Indomie goreng dengan saus keju.',
+                                'price' => 'Rp 15.000',
+                                'desc' => 'Indomie goreng dengan siraman saus keju creamy, gurih dan bikin ketagihan.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/356d8a2f-4515-4c2e-fb69-f54579387253.jpg',
+                                    'img/item-menus/indomie-keju.png',
                             ],
                             [
                                 'name' => 'Indomie Goreng Creamy',
-                                'price' => 'Rp 28.000',
-                                'desc' => 'Indomie goreng dengan saus creamy.',
+                                'price' => 'Rp 15.000',
+                                'desc' => 'Indomie kuah yang diberi sentuhan susu, menghasilkan rasa creamy yang lembut.',
                                 'img' =>
-                                    'https://storage.googleapis.com/a1aa/image/b0cc7203-baab-4eaa-802f-1c887c3e4b4b.jpg',
+                                    'img/item-menus/indomie-creamy.png',
                             ],
                         ],
                     ];
@@ -305,14 +305,14 @@
                         'img' => 'img/item-facilities/canopy-lush-garden.jpg',
                         'title' => 'Under the Canopy of Our Lush, Green Garden',
                         'desc' =>
-                            'Take a peaceful break beneath our cozy rooftop garden, where greenery surrounds you and the gentle sounds of our fish pond soothe your mind.',
+                            'Take a peaceful break beneath our cozy rooftop garden, where greenery surrounds you and the gentle sound of our fish pond soothes your soul.',
                         'route' => 'space.garden'
                     ],
                     [
                         'img' => 'img/item-facilities/meeting-room.png',
                         'title' => 'Host Productivity in Our Private Meeting Room',
                         'desc' =>
-                            'Conduct meetings, creatively collaborate, or work in quiet – our meeting space is thoughtfully designed to spark ideas and meaningful discussion.',
+                            'Conduct meetings or creative activity sessions in a quiet, well-equipped space thoughtfully designed to spark ideas and meaningful collaboration.',
                         'route' => 'space.meeting'
                     ],
                 ];
@@ -431,28 +431,28 @@
                         'id' => 'faq1',
                         'question' => 'Apa konsep utama Dugg Coffee?',
                         'answer' =>
-                            'Dugg Coffee adalah tempat yang mengutamakan kualitas kopi dan suasana yang nyaman untuk para pecinta kopi.',
+                            'Dugg Coffee mengusung konsep “Drink Under Good Garden” yang menggabungkan kopi nikmat dengan suasana taman alami. Di sini, kamu bisa ngopi sambil menikmati pepohonan hijau, kolam ikan, dan udara segar yang menenangkan pikiran.',
                     ],
                     [
                         'id' => 'faq2',
                         'question' => 'Apakah tersedia area indoor dan outdoor?',
-                        'answer' => 'Ya, Dugg Coffee menyediakan area indoor dan outdoor untuk kenyamanan pengunjung.',
+                        'answer' => 'Ya, kami memiliki area indoor ber-AC yang nyaman serta area outdoor dengan suasana taman rindang. Keduanya dirancang agar pengunjung bisa memilih tempat sesuai suasana hati atau kebutuhan aktivitasnya.',
                     ],
                     [
                         'id' => 'faq3',
-                        'question' => 'Bisakah memesan untuk meeting atau acara?',
-                        'answer' => 'Bisa, Dugg Coffee menerima pemesanan untuk meeting dan acara khusus.',
+                        'question' => 'Bisa reservasi untuk meeting atau acara?',
+                        'answer' => 'Bisa banget! Kami menyediakan ruang meeting dan area semi-privat yang bisa dipesan untuk diskusi, rapat, atau acara komunitas kecil. Cukup hubungi kami lewat Instagram atau WhatsApp untuk info dan jadwalnya.',
                     ],
                     [
                         'id' => 'faq4',
-                        'question' => 'Apakah jam buka Dugg Coffee?',
-                        'answer' => 'Dugg Coffee buka setiap hari dari pukul 7 pagi hingga 9 malam.',
+                        'question' => 'Kapan jam buka Dugg Coffee?',
+                        'answer' => 'Kami buka setiap hari, mulai pukul 08.00 pagi hingga 22.00 malam. Baik untuk morning coffee, work session, atau quality time malam hari di taman kami.',
                     ],
                     [
                         'id' => 'faq5',
-                        'question' => 'Bagaimana kebijakan Wi-Fi dan outlet listrik di Dugg Coffee?',
+                        'question' => 'Bagaimana kesediaan Wi-Fi dan outlet listrik di Dugg Coffee?',
                         'answer' =>
-                            'Dugg Coffee menyediakan Wi-Fi gratis dan outlet listrik di setiap meja untuk kenyamanan pelanggan.',
+                            'Kami menyediakan Wi-Fi gratis dan outlet listrik di hampir semua meja, baik di area indoor maupun outdoor. Tempat ini memang dirancang untuk mendukung pengunjung yang ingin bekerja, belajar, atau bersantai sambil tetap terhubung dengan perangkat mereka.',
                     ],
                 ];
             @endphp
